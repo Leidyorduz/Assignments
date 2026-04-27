@@ -1,11 +1,81 @@
 
+#top { 
+    color: pink
+    
+}
+
 img {
-    width: 75% !important;
+    width: 30% !important;
     height: auto;
 }
 
 
 #Hobbies {
-    color:blue;
+    color: rgb(107, 50, 10)
 }
 
+#Skills {
+    color:rgb(107, 50, 10)
+}
+
+#Family {
+    color: rgb(107, 50, 10)
+}
+
+
+
+img {
+    border: 2px solid pink;
+    border-radius:20px;
+}
+
+
+
+div.center >p {
+    background-color: brown;
+    display: inline-block;
+    width: 250px;
+}
+
+recipe 
+
+div.recipe >p { 
+    background-color:darkseagreen;
+    display: inline-block;
+    width: 250px;
+}
+
+body { 
+    background-image: url(../img/lime.jpg);
+    background-repeat: no-repeat;
+    background-size: cover 
+
+}
+
+
+#LIME {
+    color:dark chocolate;
+    background-color:pink;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol li {
+  margin-bottom: 20px;
+}
+
+.p1 {
+  font-family: Helvetica;
+}
+
+.p2 {
+  font-family: Helvetica;
+}
+
+.p3 {
+  font-family: Helvetica;
+}
+
+.ul {
+  font-family: Helvetica;
+}
