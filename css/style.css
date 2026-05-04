@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 #top { 
     color: pink  
@@ -39,6 +44,11 @@ div.center >p {
 
 recipe 
 
+img {
+    border: 2px solid pink;
+    border-radius:20px; 
+}
+
 div.recipe >p { 
     background-color:darkseagreen;
     display: inline-block;
@@ -54,10 +64,10 @@ body {
  
 
 #LIME {
-    color:dark chocolate;
+    color:white;
     background-color: peachpuff;
     display: inline-block;
-    font-family:"Roboto", sans-serif;
+    font-family:"bungee inline";
 }
 
 ol li {
@@ -70,6 +80,8 @@ ul li {
   margin-bottom: 20px;
   font-weight: bold;
   font-style: italic;  
+  font-size: 1.2em;
+  font-variant:small-caps;
 }
 
 .p1 {
@@ -80,6 +92,7 @@ ul li {
 .p2 {
   font-family: Helvetica;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .p3 {
@@ -89,14 +102,17 @@ ul li {
 
 
 .p4 {
-    background-color: peachpuff;
+    display: inline-block;
+    font-family: Helvetica;
 }
 
 
-.div2 { 
-   @font-face {
-    font-family:"Roboto", sans-serif ;
-    src: url();
-   }
-    }
+.p5 { 
+    font-family: Bevan;
+}
 
+
+h2 { 
+    font-family:story script;
+    color:darksalmon;
+}
