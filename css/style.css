@@ -56,12 +56,13 @@ div.recipe >p {
 }
 
 
-body { 
+body.recipe { 
     background-image: url(../img/lime.jpg);
     background-repeat: no-repeat;
     background-size: cover 
 }
  
+
 
 #LIME {
     color:white;
@@ -117,11 +118,37 @@ h2 {
     color:darksalmon;
 }
 
+table
+
+
 td{  
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 10px;
 }
 
-table{
+table, th, td{
     border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tfoot{
+    background-color: beige;
+}
+
+tfoot td{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: green;
+}
+
+thead{
+    width: ;
+}
+
+
+
+thead img{
+    width: 90px;;
+    height: 90px; ;
 }
