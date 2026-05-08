@@ -4,8 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
-#top { 
-    color: pink  
+#top {
+    color: pink
 }
 
 img {
@@ -14,91 +14,90 @@ img {
 }
 
 .about {
-  background-image: url(../img/back.jpeg);
-background-repeat: no-repeat;
-  background-size: cover 
+    background-image: url(../img/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
 }
+
 #Hobbies {
     color: rgb(107, 50, 10)
 }
 
 #Skills {
-    color:rgb(107, 50, 10)
+    color: rgb(107, 50, 10)
 }
 
 #Family {
     color: rgb(107, 50, 10)
 }
 
-img.carlota{
+img.carlota {
     border: 2px solid pink;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
 
-div.center >p {
+div.center>p {
     background-color: brown;
     display: inline-block;
     width: 250px;
 }
 
-recipe 
-
-img {
+recipe img {
     border: 2px solid pink;
-    border-radius:20px; 
+    border-radius: 20px;
 }
 
-div.recipe >p { 
-    background-color:darkseagreen;
+div.recipe>p {
+    background-color: darkseagreen;
     display: inline-block;
     width: 250px;
 }
 
 
-body.recipe { 
+body.recipe {
     background-image: url(../img/lime.jpg);
     background-repeat: no-repeat;
-    background-size: cover 
+    background-size: cover
 }
- 
+
 
 
 #LIME {
-    color:white;
+    color: white;
     background-color: peachpuff;
     display: inline-block;
-    font-family:"bungee inline";
+    font-family: "bungee inline";
 }
 
 ol li {
-  margin-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul li {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-style: italic;  
-  font-size: 1.2em;
-  font-variant:small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    font-variant: small-caps;
 }
 
 .p1 {
-  font-family: Helvetica;
+    font-family: Helvetica;
 }
 
 
 .p2 {
-  font-family: Helvetica;
-  font-weight: bold;
-  font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .p3 {
-  font-family: Helvetica;
-  font-weight: bold;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 
@@ -108,55 +107,58 @@ ul li {
 }
 
 
-.p5 { 
+.p5 {
     font-family: Bevan;
 }
 
 
-h2 { 
-    font-family:story script;
-    color:darksalmon;
+h2 {
+    font-family: story script;
+    color: darksalmon;
 }
 
-table
-
-thead{
-    font-family:sans-serif;
+table thead {
+    font-family: sans-serif;
+    background-color:white;
 }
-td{  
+
+.table_img {
+    width: 200px;
+    height: 200px;
+}
+
+td {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding: 10px;
 }
 
-table, th, td{
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-tfoot{
+
+tfoot {
     background-color: beige;
 }
 
-tfoot td{ 
+tfoot td {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-color: lightgreen;
 }
 
-thead img{
-    width: auto;
-    height: 80px;
-}
+
 
 div.grid p {
     display: inline-block;
-    grid template-colums: 40% 25% 25%
-    gap: 20px;
-    }
+    grid template-colums: 40% 25% 25% gap: 20px;
+}
 
-div.grid p{
+div.grid p {
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
